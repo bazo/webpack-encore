@@ -103,6 +103,18 @@
     "webpack-notifier": "^1.6.0",
     "zombie": "^6.1.4"
   },
+  "peerDependencies": {
+    "tapable": "~2.2.1",
+    "webpack": "~5.72.0"
+  },
+  "peerDependenciesMeta": {
+    "tapable": {
+      "optional": true
+    },
+    "webpack": {
+      "optional": true
+    }
+  },
   "files": [
     "lib/",
     "bin/",
